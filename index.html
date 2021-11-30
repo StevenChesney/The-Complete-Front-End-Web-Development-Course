@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soulsborne</title>
+    <title>Best Pizza Ever!</title>
 </head>
 <body>
     
@@ -18,6 +18,11 @@
 
     <section id="contact-form">
         <form method="GET" action="place-order.php">
+            <h4>Delivery</h4>
+            <input name="delivery" type="radio" value="delivery">Delivery
+            <br>
+            <input name="delivery" type="radio" value="pickup">pickup
+
             <h2>Place Order</h2>
             <h4>Address</h4>
             <input name="address1" placeholder="Address Line 1" class="lg-input">
@@ -30,19 +35,17 @@
             <input name="zip" placeholder="Zip code" class="sm-input">
             <br>
             <h4>Ingredients</h4>
-            <input name="pepperoni" type="checkbox">Pepperoni
+            <input name="ingredient" type="checkbox" value="Pepperoni">Pepperoni
             <br>
-            <input name="Salami" type="checkbox">Salami
+            <input name="ingredient" type="checkbox" value="Salami">Salami
             <br>
-            <input name="Bacon" type="checkbox">Bacon
+            <input name="ingredient" type="checkbox" value="Bacon">Bacon
             <br>
-            <input name="Salami" type="checkbox">Salami
+            <input name="ingredient" type="checkbox" value="Sausage">Sausage
             <br>
-            <input name="Sausage" type="checkbox">Sausage
+            <input name="ingredient" type="checkbox" value="Onion">Onion
             <br>
-            <input name="Onion" type="checkbox">Onion
-            <br>
-            <input name="Peppers" type="checkbox">Peppers
+            <input name="ingredient" type="checkbox" value="Peppers">Peppers
             <br>
         </form>
     </section>
