@@ -46,3 +46,11 @@ article img {
     background-position:center !important;
 
 }
+
+a {
+    text-decoration: none;
+}
+
+p {
+    word-spacing: 20px;
+}
