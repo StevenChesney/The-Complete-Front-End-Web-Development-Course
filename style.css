@@ -3,6 +3,11 @@ body {
     color: #0af;
 }
 
+body > header > h3 {
+    background: white;
+    color: green;
+}
+
 h3 {
     color: #000;
 }
@@ -10,3 +15,4 @@ h3 {
 body h3 {
     color: #f00;
 }
+
