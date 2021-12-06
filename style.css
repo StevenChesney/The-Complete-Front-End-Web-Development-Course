@@ -18,6 +18,8 @@ body h1 {
     width: 100%;
     background: rgba (255,255,255,.9);
     top: 0px;
+    left: 0px;
+    height: 100vh;
 }
 
 #main-header::after {
@@ -99,4 +101,10 @@ article:active {
     height: 200px;
     width: 200px;
     border-radius: 100px;
+}
+
+.my-text {
+    height: 600px;
+    max-height: 200px;
+    border: 2px solid black;
 }
