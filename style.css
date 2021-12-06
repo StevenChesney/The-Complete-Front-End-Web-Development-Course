@@ -20,6 +20,15 @@ body h1 {
     top: 0px;
 }
 
+#main-header::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 40px;
+    background: #000;
+    position: absolute;
+}
+
 h1 {
     display: inline-block;
     height: 20px;
