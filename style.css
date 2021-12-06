@@ -15,11 +15,10 @@ body h1 {
 #main-header {
     border-bottom: 2px solid #000;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background: rgba (255,255,255,.9);
     top: 0px;
     left: 0px;
-    height: 100vh;
 }
 
 #main-header::after {
@@ -48,7 +47,12 @@ article {
     border: 1px solid #000;
     padding: 10px;
     margin: 0px;
-    box-shadow: 20px 10px 20px rgba(0,0,0,.3 );
+    box-shadow: 2px 2px 6px rgba(0,0,0,.3 );
+    transition:box-shadow 1s;
+}
+
+article:hover{
+    box-shadow: 5px 5px 20px rgba (0,0,0,.7);
 }
 
 article img {
@@ -106,5 +110,7 @@ article:active {
 .my-text {
     height: 600px;
     max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
     border: 2px solid black;
 }
