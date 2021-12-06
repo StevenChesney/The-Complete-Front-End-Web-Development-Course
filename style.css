@@ -67,15 +67,23 @@ p {
     width: 90%;
     margin: 10px;
     padding: 10px 20px;
+    border-radius: 10px 20px 2px 50px;
+    border: 1px solid #aaa;
 }
 
 .my-input:focus {
     background: rgb(104, 211, 127);
     color: rgb(31, 122, 22);
     outline: none;
-    border: 1px solid #000;
+    
 }
 
 article:active {
     opacity: .4;
+}
+
+.article-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
 }
