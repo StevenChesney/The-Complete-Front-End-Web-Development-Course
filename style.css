@@ -20,7 +20,7 @@ body h1 {
     top: 0px;
 }
 
-#main-header::before {
+#main-header::after {
     content: "";
     display: block;
     width: 10px;
